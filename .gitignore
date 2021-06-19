@@ -1,0 +1,58 @@
+.*
+!.gitignore
+
+# Temporary files
+*.tmp
+
+# Save files
+*-save.pro
+*-save.kicad_pcb
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.bom.html
+*.xml
+*.csv
+
+# Reports
+*.rpt
+
+# CPL data generated from PCB
+*.pos
+
+# KiCAD backup
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+
+# KiCAD backup folders
+*~
+_saved_*
+**/*-backups/
+
+# Netlists
+*.net
+
+# BOM plugin output
+*.csv.tmp
+*.csv
+*.xml
+
+# Gerbers
+*.gbr
+
+# Drill files
+*.drl
+
+# Footprint info cache
+fp-info-cache*
+
+# Autosave files
+_autosave-*
